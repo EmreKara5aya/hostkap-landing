@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hostkap-landing",
+  "compatibility_date": "2026-10-06",
+  "observability": {
+    "enabled": true
+  },
+  // Yalnızca public/ yayınlanır; .git ve diğer repo dosyaları dışarıda kalır.
+  "assets": {
+    "directory": "./public"
+  }
+}
